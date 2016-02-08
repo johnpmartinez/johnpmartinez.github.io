@@ -12,7 +12,7 @@
       font-family: 'Bitter', serif;
       text-align: center;
     }
-    img {
+    img:hover {
       opacity: 0.5;
     }
     h1 {
@@ -36,6 +36,12 @@
     a:hover {
       color: brown;
       text-decoration: underline;
+      }
+      
+      function renderContent()
+      {
+        context.fillstyle = "#ff0000";
+        context.fillRect(5, 5, 200, 100);
       }
   </style>
 </head>
